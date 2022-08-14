@@ -17,6 +17,8 @@ COMMON_PATH := device/samsung/msm8917-common
 BOARD_VENDOR := samsung
 
 BUILD_BROKEN_DUP_RULES := true
+BUILD_BROKEN_PREBUILT_ELF_FILES := true
+
 
 TARGET_SYSTEM_PROP += $(COMMON_PATH)/system.prop
 
